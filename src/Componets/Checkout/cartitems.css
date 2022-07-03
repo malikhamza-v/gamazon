@@ -1,0 +1,51 @@
+.cartitems {
+  display: flex;
+  margin-bottom: 1.5rem;
+  margin-top: 1.5rem;
+  background-color: lightcyan;
+}
+
+.cartitems__image {
+  object-fit: contain;
+  width: 180px;
+  height: 180px;
+  margin-block: auto;
+}
+.cartitem__info {
+  margin-left: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding-block: 2rem;
+  margin-inline: 2rem;
+}
+
+.cartitem__info > h3 {
+  font-size: 1rem;
+  font-weight: normal;
+}
+
+@media (max-width: 550px) {
+  .cartitem__button {
+    font-size: 0.5rem;
+    padding: 15px;
+  }
+}
+
+.cartitem__btns {
+  display: flex;
+  gap: 1rem;
+}
+
+.cartitem__input {
+  width: 20px;
+  height: 1rem;
+  border-radius: 2px;
+  margin-inline: 5px;
+}
+
+.cartitem__btn {
+  font-weight: 700;
+  font-size: 13px;
+  background-color: lightgrey;
+}
